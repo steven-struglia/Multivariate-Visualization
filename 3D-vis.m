@@ -12,9 +12,9 @@ Z = U*sin(fic);
 surf(X,Y,Z)
 end
 
+
+
 function [outputArg1,outputArg2] = sinusoidalCyl(inputArg1,inputArg2)
-%SINUSOIDALCYL Summary of this function goes here
-%   Detailed explanation goes here
 outputArg1 = inputArg1;
 outputArg2 = inputArg2;
 
@@ -24,6 +24,8 @@ fsurf(sincylinder(1), sincylinder(2), sincylinder(3), ...
 view([1,1,1]); title(""); xlabel(""); ylabel(""); zlabel("");
 grid off; axis equal; axis off;
 end
+
+
 
 function [outputArg1,outputArg2] = toroid(inputArg1,inputArg2)
 outputArg1 = inputArg1;
